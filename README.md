@@ -1,19 +1,19 @@
-# React Native ipay88-sdk
+# React Native ipay88-sdk-x
 
 ## Getting started
 
-`$ npm install ipay88-sdk --save`
+`$ npm install ipay88-sdk-x --save`
 
 ### Mostly automatic installation
 
-`$ react-native link ipay88-sdk`
+`$ react-native link ipay88-sdk-x`
 
 ### Manual installation
 
 #### iOS
 
 1.  In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2.  Go to `node_modules` ➜ `ipay88-sdk` and add `RNIpay88Sdk.xcodeproj`
+2.  Go to `node_modules` ➜ `ipay88-sdk-x` and add `RNIpay88Sdk.xcodeproj`
 3.  In XCode, in the project navigator, select your project. Add `libRNIpay88Sdk.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4.  Run your project (`Cmd+R`)<
 
@@ -26,12 +26,12 @@
 
 2.  Append the following lines to `android/settings.gradle`:
     ```
-    include ':ipay88-sdk'
-    project(':ipay88-sdk').projectDir = new File(rootProject.projectDir, 	'../node_modules/ipay88-sdk/android')
+    include ':ipay88-sdk-x'
+    project(':ipay88-sdk-x').projectDir = new File(rootProject.projectDir, 	'../node_modules/ipay88-sdk-x/android')
     ```
 3.  Insert the following lines inside the dependencies block in `android/app/build.gradle`:
     ```
-      compile project(':ipay88-sdk')
+      compile project(':ipay88-sdk-x')
     ```
 
 ## Usage
@@ -47,7 +47,7 @@ import {
   Alert,
   ToastAndroid
 } from "react-native";
-import IPay88, { Pay } from "ipay88-sdk";
+import IPay88, { Pay } from "ipay88-sdk-x";
 
 export default class App extends Component {
   successNotify = data => {
