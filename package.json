@@ -1,12 +1,13 @@
 {
-  "name": "ipay88-sdk-x",
-  "version": "0.0.1",
+  "name": "ipay88-sdk-fix",
+  "version": "0.0.3",
   "description": "iPay88 SDK with Android fixed permissions based on https://github.com/myussufz/react-native-ipay88-sdk",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xgenem/react-native-ipay88-sdk.git"
   },
   "main": "index.js",
+  "files": ["*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
