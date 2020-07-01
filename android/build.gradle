@@ -33,6 +33,6 @@ repositories {
 dependencies {
     compile 'com.facebook.react:react-native:+'
     // compile files('libs/ipay88_androidv7.jar')
-
-    compile files('libs/ipayhosted_standardSDK_06052020.aar')
+    // compile files('libs/ipayhosted_standardSDK_06052020.aar')
+    compile files('libs/IPHS_SDK_01062020.aar')
 }
