@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ipay88-sdk"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "ipay88-sdk"
   s.description  = <<-DESC
                   RNIpay88Sdk

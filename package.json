@@ -1,6 +1,6 @@
 {
   "name": "ipay88-sdk-fix",
-  "version": "0.0.3",
+  "version": "1.0.3",
   "description": "iPay88 SDK with Android fixed permissions based on https://github.com/myussufz/react-native-ipay88-sdk",
   "repository": {
     "type": "git",
